@@ -12,11 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/code-frame": "^7.26.2",
+    "canvas": "^3.1.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "is-arrayish": "^0.3.2",
-    "node-html-to-image": "^5.0.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "supertest": "^7.0.0",

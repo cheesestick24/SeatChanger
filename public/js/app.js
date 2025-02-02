@@ -199,7 +199,7 @@ const app = Vue.createApp({
                     this.isFirstLoad = false; // 初回ロードフラグを下げる
                 }
             } catch (error) {
-                console.error(error.message);
+                console.error('Error:', error.message);
             } finally {
                 this.isGeneratingImage = false; // 生成中フラグを下げる
             }
